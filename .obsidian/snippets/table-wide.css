@@ -1,0 +1,42 @@
+/* =============================================================
+   页面全屏（占满编辑器宽度）+ 表格铺满
+   —— 全局生效：应用到所有笔记（阅读视图 / 实时预览 / 源码模式）
+   无需在每个文件 frontmatter 里写 cssclasses，改这一处即可。
+   ============================================================= */
+
+/* 1) 所有笔记整体变宽：取消默认「可读行宽」限制，占满整个编辑区 */
+.markdown-preview-view,
+.markdown-source-view {
+  --file-line-width: 100%;
+}
+
+/* 2) 表格占满笔记宽度 */
+.markdown-preview-view table,
+.markdown-source-view table {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+/* 3) 表格外层容器也放宽，适配新版 Obsidian 的表格包裹结构 */
+.markdown-preview-view div:has(table),
+.markdown-source-view div:has(table) {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+/* =============================================================
+   向后兼容：保留原 .table-wide 类
+   （给个别 frontmatter 写了 cssclasses: table-wide 的文件用，
+     在全局已生效的前提下它是冗余但无害的）
+   ============================================================= */
+.table-wide {
+  --file-line-width: 100%;
+}
+.table-wide table {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+.table-wide div:has(table) {
+  width: 100% !important;
+  max-width: 100% !important;
+}

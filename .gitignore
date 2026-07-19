@@ -1,0 +1,44 @@
+# Local agent/runtime state
+.agents/
+
+# Obsidian machine-specific state
+.obsidian/cache/
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.trash/
+
+# Existing large local reference library
+Books/
+
+# EPLAN projects, databases, backups, archives, and lock/runtime files
+*.edb/
+*.elk
+*.lck
+*.eod
+*.eox
+*.zw?
+
+# Large binary packages and media; review for Git LFS before adding deliberately
+*.7z
+*.avi
+*.exe
+*.iso
+*.mkv
+*.mp4
+*.msi
+*.rar
+*.zip
+
+# VMware virtual-machine files
+*.nvram
+*.vmdk
+*.vmem
+*.vmsd
+*.vmsn
+*.vmss
+*.vmx
+
+# Windows/macOS metadata
+Desktop.ini
+Thumbs.db
+.DS_Store

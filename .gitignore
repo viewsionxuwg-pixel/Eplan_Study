@@ -8,7 +8,10 @@
 .trash/
 
 # Existing large local reference library
-Books/
+/98_有意义书籍/
+
+# Local-only raw materials stored in the Vault; Markdown indexes remain versionable
+/90_附件/本机资料/
 
 # EPLAN projects, databases, backups, archives, and lock/runtime files
 *.edb/

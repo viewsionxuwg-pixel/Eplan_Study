@@ -6,10 +6,10 @@ tags:
   - 学习环境
 eplan_version: 2025
 status: active
-verification: 用户已确认平台，详细版本待确认
+verification: 用户已确认平台；Vault 当前路径已由环境核对，详细版本待确认
 created: 2026-07-19
-updated: 2026-07-19
-source: 用户确认
+updated: 2026-07-21
+source: 用户确认与当前工作区环境
 source_version: 2025
 ---
 
@@ -18,7 +18,7 @@ source_version: 2025
 ## 已确认
 
 - EPLAN 2025 安装在 VMware 虚拟机中。
-- Obsidian Vault 位于宿主机 `D:/WorkSpace/Eplan_Study`。
+- 本轮 Obsidian Vault 工作区位于宿主机 `E:/Eplan_Study`。
 - 宿主机安装检测不到 EPLAN 属于预期情况，后续环境核对需要在虚拟机内完成。
 
 ## 待确认

@@ -16,7 +16,7 @@ status: active
 eplan_version: 2025
 verification: 不适用
 created: 2026-07-19
-updated: 2026-07-19
+updated: 2026-07-21
 ---
 
 # EPLAN P8 2025 学习 Vault
@@ -58,15 +58,17 @@ GitHub 浏览入口：[打开 EPLAN 学习主页](00_Home/EPLAN学习主页.md)
 
 ### 3.1 A级：官方资料
 
-- [EPLAN中文信息门户](https://www.eplan.help/zh-CN/Infoportal/Content/htm/portal_tutorials.htm)
+- [EPLAN Platform 2025 官方帮助](https://www.eplan.help/en-us/Infoportal/Content/Plattform/2025/Content/htm/EPLAN_Help_k_start.htm)
 - EPLAN软件内帮助：在目标命令、属性或对话框中按 `F1`
-- [EPLAN eLearning](https://www.eplan.com/de-en/services/eplan-elearning/)
-- [EPLAN Training Academy](https://www.eplan.com/de-en/services/training/)
-- [EPLAN Electric P8产品页](https://www.eplan.com/us-en/products/eplan-electric-p8/)
-- EPLAN Data Portal中的厂商部件数据
+- [易盼 eLearning 系列课程](https://www.eplan.com.cn/zh/services/eplan-elearning/)
+- [易盼培训学院](https://www.eplan.com.cn/zh/services/training/)
+- [Eplan Data Portal](https://www.eplan.com.cn/zh/products/eplan-data-portal)中的厂商部件数据
 - EPLAN安装介质附带的示例项目、主数据与文档
 
 用途：确认概念、属性、命令路径、版本差异和官方推荐工作流。
+
+> [!warning] 官方旧版教程边界
+> [EPLAN 初级人员教程入口](https://www.eplan.help/zh-CN/Infoportal/Content/htm/portal_tutorials.htm)中的 Electric P8 教程虽为官方经典资料，但入口明确标注只适用至 2.9.x。它用于理解完整流程，不作为 2025 菜单、Ribbon 或插入中心的操作依据。初学者资料分级见 [[10_官方资料/初学者精选学习资料|初学者精选学习资料]]。
 
 ### 3.2 B级：系统课程与优质视频
 
@@ -135,6 +137,7 @@ GitHub 浏览入口：[打开 EPLAN 学习主页](00_Home/EPLAN学习主页.md)
 EPLAN_P8_2025_Vault/
 ├─ 00_Home/
 │  ├─ EPLAN学习主页.md
+│  ├─ 初学者快速入口.md
 │  ├─ 学习路线图.md
 │  └─ 学习进度看板.md
 ├─ 01_Inbox/
@@ -142,6 +145,7 @@ EPLAN_P8_2025_Vault/
 │  └─ 临时笔记/
 ├─ 10_官方资料/
 │  ├─ 官方帮助索引.md
+│  ├─ 初学者精选学习资料.md
 │  ├─ EPLAN_2025新功能.md
 │  └─ 版本差异/
 ├─ 20_基础知识/
@@ -191,7 +195,10 @@ EPLAN_P8_2025_Vault/
 │  ├─ 图片/
 │  ├─ PDF/
 │  ├─ 视频索引/
-│  └─ 外部文件索引/
+│  ├─ 外部文件索引/
+│  ├─ 本机资料库_MOC.md
+│  └─ 本机资料/（本机原始大文件，Git 忽略）
+├─ 98_有意义书籍/（本机书籍原件，Git 忽略）
 └─ 99_Templates/
    ├─ Template_专题笔记.md
    ├─ Template_视频课程.md
